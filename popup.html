@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+          font-family: 'Segoe UI', sans-serif;
+          margin: 0;
+          padding: 16px;
+          width: 240px;
+          background-color: #f9f9f9;
+          border-radius: 12px;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+        }
+
+        #searchInput {
+          width: 100%;
+          padding: 8px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          font-size: 14px;
+          box-sizing: border-box;
+        }
+
+        #searchButton {
+          margin-top: 10px;
+          width: 100%;
+          padding: 8px;
+          background-color: #4285f4;
+          color: white;
+          font-weight: bold;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: background-color 0.2s, box-shadow 0.2s;
+        }
+
+        #searchButton:hover {
+          background-color: #357ae8;
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+      </style>
+  </head>
+  <body>
+    <input type="text" id="searchInput" placeholder="Enter search term" />
+    <button id="searchButton">Search</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
